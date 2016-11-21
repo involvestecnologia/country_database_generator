@@ -18,15 +18,15 @@ public class Generator {
 
 	/*
 	 * get this at
-	 * http://api.geonames.org/countryInfo?username=gabriel.involves&country=[ISO CODE]
+	 * http://api.geonames.org/countryInfo?username=[username]&country=[ISO CODE]
 	 */
-	private static final int COUNTRY_CODE = 3608932;
+	private static final int COUNTRY_CODE = 6252001;
 
 	// start id of state register
-	private static final int START_STATE_ID = 1200;
+	private static final int START_STATE_ID = 1400;
 
 	// file where the result SQL will be written
-	private static final String DESTINY_FILE = "c:\\deploy\\honduras.sql";
+	private static final String DESTINY_FILE = "c:\\deploy\\eua.sql";
 
 	// the level of state representation, ex: country (0) -> region (1) ->
 	// state/province (2)
@@ -37,7 +37,7 @@ public class Generator {
 	private static final int CITY_LEVEL = 2;
 
 	// the language of the result file
-	private static final String LANGUAGE = "es";
+	private static final String LANGUAGE = "en";
 
 	// do not change this variables values
 	private static int currentStateId;
